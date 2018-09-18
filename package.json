@@ -1,0 +1,31 @@
+{
+  "name": "koa-ws-server",
+  "version": "1.0.0",
+  "description": "Basic websocket server using koa2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjr3ady/koa-ws-server.git"
+  },
+  "keywords": [
+    "Websocket"
+  ],
+  "author": "github.com/bjr3ady",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bjr3ady/koa-ws-server/issues"
+  },
+  "homepage": "https://github.com/bjr3ady/koa-ws-server#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.3.0",
+    "koa-websocket": "^4.1.0",
+    "lodash": "^4.17.4",
+    "log4js": "^2.4.1",
+    "mongoose": "^5.0.0-rc0"
+  }
+}

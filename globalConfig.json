@@ -1,0 +1,9 @@
+{
+  "APP_NAME": "Websocket server",
+  "LOG_LEVEL": "debug",
+  "API_DOMAIN": "",
+  "DB_CONN": "mongodb://su:su@192.168.1.45/platform?authSource=admin",
+  "USER_TOKEN_EXPIRE": 1296000000,
+  "USE_AUTH": true,
+  "USE_HTTPS": false
+}
